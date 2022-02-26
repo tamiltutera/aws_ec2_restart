@@ -12,7 +12,7 @@ ansible.cfg
 inventory = hosts
 ```
 
-main.yml
+main.yml -e "instance_id=<aws_instance_id> region=us-east-1"
 ```
 ---
 - hosts: all
