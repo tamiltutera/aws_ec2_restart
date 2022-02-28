@@ -1,5 +1,7 @@
 # aws_ec2_restart
-## Tamiltutera - How to Restart AWS EC2 Instance using Ansible
+## Youtube Channel: https://www.youtube.com/c/TamilTutEra
+## Video Link: https://youtu.be/u3Wpz8jWBc4
+## Tamiltutera - How to Restart AWS EC2 Instance using AWS CLI in Ansible Playbook
 
 hosts
 ```
@@ -12,7 +14,7 @@ ansible.cfg
 inventory = hosts
 ```
 
-main.yml -e "instance_id=<aws_instance_id> region=us-east-1"
+ansible-playbook main.yml -e "instance_id=<aws_instance_id> region=us-east-1"
 ```
 ---
 - hosts: all
